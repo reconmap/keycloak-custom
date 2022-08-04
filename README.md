@@ -4,4 +4,9 @@
 
 ![Reconmap themed login screen](theme/screenshot.png)
 
+## Build instructions
+
+```shell
+ADMIN_CLI_SECRET=xxxxxxxxxxxxxxxxxxxx make
+```
 
