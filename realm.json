@@ -26,7 +26,7 @@
   "oauth2DeviceCodeLifespan": 600,
   "oauth2DevicePollingInterval": 5,
   "enabled": true,
-  "sslRequired": "external",
+  "sslRequired": "none",
   "registrationAllowed": false,
   "registrationEmailAsUsername": false,
   "rememberMe": false,
@@ -645,7 +645,7 @@
       "enabled": true,
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
-      "secret": "${ADMIN_CLI_SECRET}",
+      "secret": "${VAR_ADMIN_CLI_SECRET}",
       "redirectUris": [],
       "webOrigins": [],
       "notBefore": 0,
@@ -890,17 +890,17 @@
     {
       "id": "3f0deae3-4464-40fd-be93-971cb717bd71",
       "clientId": "web-client",
-      "rootUrl": "http://localhost:5500",
-      "adminUrl": "http://localhost:5500",
+      "rootUrl": "${VAR_WEB_CLIENT_URL}",
+      "adminUrl": "${VAR_WEB_CLIENT_URL}",
       "surrogateAuthRequired": false,
       "enabled": true,
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
       "redirectUris": [
-        "http://localhost:5500/*"
+        "${VAR_WEB_CLIENT_URL}/*"
       ],
       "webOrigins": [
-        "http://localhost:5500"
+        "${VAR_WEB_CLIENT_URL}"
       ],
       "notBefore": 0,
       "bearerOnly": false,
