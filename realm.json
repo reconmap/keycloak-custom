@@ -498,6 +498,7 @@
       "groups": []
     },
     {
+      "id": "fec17265-a0ae-4d5a-9e20-63487fc21b67",
       "username": "admin",
       "enabled": true,
       "email": "admin@localhost",
@@ -897,6 +898,7 @@
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
       "redirectUris": [
+        "urn:ietf:wg:oauth:2.0:oob",
         "${VAR_WEB_CLIENT_URL}/*"
       ],
       "webOrigins": [
