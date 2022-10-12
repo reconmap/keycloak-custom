@@ -427,7 +427,60 @@
       ]
     }
   },
-  "groups": [],
+  "groups": [
+    {
+      "id": "ba110900-9710-4620-a4a8-5ad3e9c5ddb8",
+      "name": "administrator-group",
+      "path": "/administrator-group",
+      "attributes": {},
+      "realmRoles": [],
+      "clientRoles": {
+        "web-client": [
+          "administrator"
+        ]
+      },
+      "subGroups": []
+    },
+    {
+      "id": "f8cbef2b-a716-4860-9409-7618c15d3fb9",
+      "name": "client-group",
+      "path": "/client-group",
+      "attributes": {},
+      "realmRoles": [],
+      "clientRoles": {
+        "web-client": [
+          "client"
+        ]
+      },
+      "subGroups": []
+    },
+    {
+      "id": "f68d7911-a4d6-4d39-a056-cc2e90a466d9",
+      "name": "superuser-group",
+      "path": "/superuser-group",
+      "attributes": {},
+      "realmRoles": [],
+      "clientRoles": {
+        "web-client": [
+          "superuser"
+        ]
+      },
+      "subGroups": []
+    },
+    {
+      "id": "1afac10c-5f9e-4a60-8af2-e58420e0dbaa",
+      "name": "user-group",
+      "path": "/user-group",
+      "attributes": {},
+      "realmRoles": [],
+      "clientRoles": {
+        "web-client": [
+          "user"
+        ]
+      },
+      "subGroups": []
+    }
+  ],
   "defaultRole": {
     "id": "4efd92ad-5d19-4b67-b7dd-734c5c786e06",
     "name": "default-roles-reconmap",
