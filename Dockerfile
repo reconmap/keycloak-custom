@@ -1,4 +1,4 @@
-FROM quay.io/keycloak/keycloak:21.1
+FROM quay.io/keycloak/keycloak:23.0.4
 
 COPY theme/reconmap-theme-keycloak.jar /opt/keycloak/providers/
 
