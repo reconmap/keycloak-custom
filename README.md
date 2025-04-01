@@ -2,7 +2,7 @@
 
 # Reconmap custom Keycloak
 
-Keycloak image customised for Reconmap setups, based on Keycloak v20.
+Keycloak image customised for Reconmap setups.
 
 ![Reconmap themed login screen](theme/screenshot.png)
 
