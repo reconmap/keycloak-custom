@@ -1,4 +1,4 @@
-IMAGE_NAME=quay.io/reconmap/keycloak-custom
+IMAGE_NAME=ghcr.io/reconmap/keycloak-custom
 
 image-build:
 	docker build -t $(IMAGE_NAME) .
@@ -6,4 +6,3 @@ image-build:
 
 image-push:
 	docker push $(IMAGE_NAME)
-
