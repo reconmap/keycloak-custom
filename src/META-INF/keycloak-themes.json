@@ -1,6 +1,11 @@
 {
-    "themes": [{
-        "name" : "Reconmap",
-        "types": [ "login", "account" ]
-    }]
+    "themes": [
+        {
+            "name": "reconmap-theme",
+            "types": [
+                "login",
+                "account"
+            ]
+        }
+    ]
 }
