@@ -1,3 +1,3 @@
 
-all:
-	jar cf reconmap-theme-keycloak.jar -C src .
+reconmap-theme-keycloak.jar:
+	jar cf $@ -C src .

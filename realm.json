@@ -614,8 +614,7 @@
           "value": "admin123"
         }
       ],
-      "realmRoles": [
-      ],
+      "realmRoles": [],
       "clientRoles": {
         "account": [
           "view-profile",
@@ -1869,6 +1868,7 @@
   },
   "smtpServer": {},
   "loginTheme": "reconmap-theme",
+  "accountTheme": "reconmap-theme",
   "eventsEnabled": false,
   "eventsListeners": [
     "jboss-logging"
