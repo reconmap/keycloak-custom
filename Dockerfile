@@ -7,7 +7,7 @@ LABEL org.opencontainers.image.vendor="Netfoe" \
 	org.opencontainers.image.source="https://github.com/reconmap/keycloak-custom" \
 	org.opencontainers.image.documentation="https://github.com/reconmap/documentation"
 
-COPY theme/reconmap-theme-keycloak.jar /opt/keycloak/providers/
+COPY reconmap-theme-keycloak.jar /opt/keycloak/providers/
 
 COPY realm.json /opt/keycloak/data/import/reconmap-realm.json
 
