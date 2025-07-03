@@ -550,7 +550,6 @@
       "id": "66b22a2a-5dad-4009-b54c-60c0a07e3e24",
       "username": "service-account-admin-cli",
       "emailVerified": false,
-      "createdTimestamp": 1656497706533,
       "enabled": true,
       "totp": false,
       "serviceAccountClientId": "admin-cli",
@@ -573,7 +572,6 @@
       "id": "2f89120d-c265-4a25-a53a-18152382fd28",
       "username": "service-account-api-client",
       "emailVerified": false,
-      "createdTimestamp": 1750945380509,
       "enabled": true,
       "totp": false,
       "serviceAccountClientId": "api-client",
@@ -582,6 +580,11 @@
       "realmRoles": [
         "default-roles-reconmap"
       ],
+      "clientRoles": {
+        "realm-management": [
+          "manage-users"
+        ]
+      },
       "notBefore": 0,
       "groups": []
     },
@@ -589,7 +592,6 @@
       "id": "83ce59df-3aab-4600-8a25-24a49a53e543",
       "username": "service-account-reconmapd-client",
       "emailVerified": false,
-      "createdTimestamp": 1750944978427,
       "enabled": true,
       "totp": false,
       "serviceAccountClientId": "reconmapd-client",
@@ -2065,8 +2067,14 @@
       }
     ]
   },
-  "internationalizationEnabled": false,
-  "supportedLocales": [],
+  "internationalizationEnabled": true,
+  "supportedLocales": [
+    "pt",
+    "en",
+    "fr",
+    "es"
+  ],
+  "defaultLocale": "en",
   "authenticationFlows": [
     {
       "id": "fca66d0b-f65b-429a-9156-6549fb9d17eb",
@@ -2691,7 +2699,7 @@
     "cibaInterval": "5",
     "realmReusableOtpCode": "false"
   },
-  "keycloakVersion": "26.2.5",
+  "keycloakVersion": "26.3.0",
   "userManagedAccessAllowed": false,
   "organizationsEnabled": false,
   "verifiableCredentialsEnabled": false,
